@@ -1,3 +1,60 @@
+.margeimage{
+
+    margin-bottom: 2%;
+}
+
+
+.nav-item ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 18%;
+}
+
+/* Afficher la liste déroulante lorsqu'on survole le lien */
+.nav-item:hover ul {
+    display: block;
+}
+
+/* Ajouter un peu de style pour la lisibilité */
+.nav-item {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-linkchoix{
+  color: rgba(255, 255, 255, 0.5); 
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-linkchoix:hover, .nav-link:focus {
+    color: #cacaca;
+}
+
+
+#mainNav.navbar-shrink {
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #000;
+  }
+  #mainNav.navbar-shrink .nav-linkchoix {
+    color: #000;
+  }
+  #mainNav.navbar-shrink .nav-linkchoix:hover {
+    color: #64a19d;
+  }
+  #mainNav.navbar-shrink .nav-linkchoix:active {
+    color: #467370;
+  }
+  #mainNav.navbar-shrink .nav-linkchoix.active {
+    color: #64a19d;
+    outline: none;
+  }
+
+
+
 .img-reduite{
     height: 60%;
     padding: 20px 0 20px 0;
@@ -5,10 +62,13 @@
 
 
 
-.lecaca{
-    margin-bottom: -220px;
+.ladiv1{
+    margin-bottom: -100px;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
-.lecaca2{
-    margin-top: -220px;
+.ladiv2{
+    margin-top: -100px;
+    margin-bottom: -250px;
 }
